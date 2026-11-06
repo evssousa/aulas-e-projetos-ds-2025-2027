@@ -1,17 +1,22 @@
 {
-  "name": "projeto7-edgartec444",
+  "name": "edgartec444",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand",
+    "start": "node servidor.js",
+    "dev": "node --watch servidor.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.3.0"
   },
   "devDependencies": {
     "jest": "^30.5.2",
